@@ -1,0 +1,47 @@
+{
+    "endpointBase": "https://ecommerce-website-project.es.us-central1.gcp.cloud.es.io",
+    "engineName": "national-parks",
+    "searchKey": "search-nyxkw1fuqex9qjhfvatbqfmw",
+    "searchFields": ["title", "description", "states","image_url"],
+    "resultFields": [
+      "price",
+     
+      "id",
+      "name",
+      "gtin13",
+      "sku",
+      
+      "condition",
+      "availability",
+      "currency",
+      "brand",
+      "breadcrumbs",
+      "description",
+      "images",
+      "avg_rating",
+      "reviews_count",
+      "url",
+      "crwaled_at",
+      "source"
+  
+    ],
+    "querySuggestFields": ["name"],
+    "titleField": "name",
+    "urlField": "images",
+    "thumbnailField": "images",
+    "sortFields": ["name", "name"],
+    "facets": ["name", "name"],
+    "results": [
+      "price",
+      "gtin13",
+      "sku",
+      
+      "condition",
+      "availability",
+      "currency",
+      "brand",
+      "breadcrumbs"
+  
+    ]
+  }
+  

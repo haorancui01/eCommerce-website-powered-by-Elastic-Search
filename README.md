@@ -6,6 +6,11 @@
 This eComemrce website project is for UC ITS Capstone Unit in 2022 Semester 2.
 This project combined the MERN eCommerce website which is mainly based on  [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce) course and [Elastic Search Engine](https://www.elastic.co/elastic-stack/) to enhance the searching experince.
 
+For Elastic Search Deployment guide, please refer to [ElasticSearch](./ElasticSearchSettingUp/ElasticSearch.md)
+
+For App Search Deployment guide, please refer to [Search UI](./ElasticSearchSettingUp/SearchUI.md.md)
+
+
 ## eCommerce Functions
 
 - Shopping cart

@@ -1,41 +1,31 @@
-# ProShop eCommerce Platform
+# eCommerce Website Powered by Elastic Search 
 
-> eCommerce platform built with the MERN stack & Redux.
+> eCommerce website built with the MERN stack, Redux and Elastic Search
 
-This is the course project for my [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce) course
 
-![screenshot](https://github.com/bradtraversy/proshop_mern/blob/master/uploads/Screen%20Shot%202020-09-29%20at%205.50.52%20PM.png)
+This eComemrce website project is for UC ITS Capstone Unit in 2022 Semester 2.
+This project combined the MERN eCommerce website which is mainly based on  [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce) course and [Elastic Search Engine](https://www.elastic.co/elastic-stack/) to enhance the searching experince.
 
-## Features
+## eCommerce Functions
 
-- Full featured shopping cart
+- Shopping cart
 - Product reviews and ratings
-- Top products carousel
 - Product pagination
-- Product search feature
+- Product search
 - User profile with orders
-- Admin product management
-- Admin user management
-- Admin Order details page
 - Mark orders as delivered option
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
-- Database seeder (products & users)
 
-## Note on Issues
-Please do not post issues here that are related to your own code when taking the course. Add those in the Udemy Q/A. If you clone THIS repo and there are issues, then you can submit
+## Elastic Search Functions
+- Product data set storing
+- Product Search
+- Relevance tuning
+- Curation
 
-## Usage
 
-### ES Modules in Node
 
-We use ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.
-
-Also, when importing a file (not a package), be sure to add .js at the end or you will get a "module not found" error
-
-You can also install and setup Babel if you would like
-
-### Env Variables
+## Env Variables
 
 Create a .env file in then root and add the following
 
@@ -73,7 +63,6 @@ cd frontend
 npm run build
 ```
 
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
 
 ### Seed Database
 
@@ -87,6 +76,7 @@ npm run data:import
 npm run data:destroy
 ```
 
+## Sample User
 ```
 Sample User Logins
 
@@ -101,7 +91,7 @@ jane@example.com (Customer)
 ```
 
 
-## License
+## License (Proshop)
 
 The MIT License
 

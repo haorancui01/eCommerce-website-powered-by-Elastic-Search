@@ -173,12 +173,12 @@ export function buildSortOptionsFromConfig() {
     },
     ...(config.sortFields || []).reduce((acc, sortField) => {
       acc.push({
-        name: `${capitalizeFirstLetter(sortField)} ASC`,
+        name: `Lowest ${capitalizeFirstLetter(sortField)}`,
         value: sortField,
         direction: "asc"
       });
       acc.push({
-        name: `${capitalizeFirstLetter(sortField)} DESC`,
+        name: `Highest ${capitalizeFirstLetter(sortField)}`,
         value: sortField,
         direction: "desc"
       });

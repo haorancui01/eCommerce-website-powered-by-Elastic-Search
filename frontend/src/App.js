@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
 import CartScreen from './screens/CartScreen'
 import LoginScreen from './screens/LoginScreen'
@@ -18,7 +17,10 @@ import UserEditScreen from './screens/UserEditScreen'
 import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
-import Search from './screens/Search'
+import SearchScreen from './screens/SearchScreen'
+import TestScreen from './Homepage/TestScreen'
+// import HomeScreen from './Homepage/HomeScreen'
+import HomeScreen from './screens/HomeScreen'
 
 const App = () => {
   return (
@@ -54,10 +56,11 @@ const App = () => {
           <Route
            //path='/search/:keyword/page/:pageNumber'
              path='/search' 
-           component={Search}
+           component={SearchScreen}
             exact
           />
-          <Route path='/' component={Search} exact />
+          <Route path='/' component={TestScreen} exact />
+          {/* <Route path='/' component={HomeScreen} exact /> */}
           {/* <Route path='/search/:id' component={HomeScreen} exact /> */}
         </Container>
       </main>

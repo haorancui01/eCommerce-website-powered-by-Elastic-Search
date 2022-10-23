@@ -18,9 +18,9 @@ import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
 import SearchScreen from './screens/SearchScreen'
-import TestScreen from './Homepage/TestScreen'
+import TestScreen from './Homepage/HomeScreen'
 // import HomeScreen from './Homepage/HomeScreen'
-import HomeScreen from './screens/HomeScreen'
+import HomeScreen from './Homepage/HomeScreen'
 
 const App = () => {
   return (
@@ -59,7 +59,7 @@ const App = () => {
            component={SearchScreen}
             exact
           />
-          <Route path='/' component={TestScreen} exact />
+          <Route path='/' component={HomeScreen} exact />
           {/* <Route path='/' component={HomeScreen} exact /> */}
           {/* <Route path='/search/:id' component={HomeScreen} exact /> */}
         </Container>

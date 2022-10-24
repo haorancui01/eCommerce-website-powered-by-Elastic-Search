@@ -37,9 +37,11 @@ Create a .env file in then root and add the following
 ```
 NODE_ENV = development
 PORT = 5000
-MONGO_URI = your mongodb uri
+MONGO_USER = root
+MONGO_URL = mongodb+srv://root:1234@initial.gzgdw.mongodb.net/tesco?retryWrites=true&w=majority
+MONGO_DBNAME = tesco
 JWT_SECRET = 'abc123'
-PAYPAL_CLIENT_ID = your paypal client id
+PAYPAL_CLIENT_ID=
 ```
 
 ### Install Dependencies (frontend & backend)
